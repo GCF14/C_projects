@@ -1,0 +1,37 @@
+INSTRUCTIONS 
+
+1.) Make sure to include "events.c" via the following preprocessor directive:
+
+#include "events.c"
+
+2.) Make sure events.c is located in the same directory as your .c files
+
+3.) To call an event, make use of the following function:
+
+prototype:
+void triggerEvent(int characterNo,int type);
+
+characterNo:
+1 - Sojiro Sakura
+2 - Ryuji Sakamoto
+3 - Ann Takamaki
+4 - Yusuke Kitagawa
+5 - Makoto Niijima
+6 - Futaba Sakura
+7 - Haru Okumura
+8 - Tae Takemi
+9 - Sadayo Kawakami
+10 - Sumire Yoshizawa
+
+type:
+1 - Unlock
+2 - MAX Level event
+
+Example function calls:
+triggerEvent(7,1) - Trigger Haru's unlock event
+triggerEvent(3,2) - Trigger Ann's MAX level event
+triggerEvent(5,2) - Trigger Makoto's MAX level event
+triggerEvent(2,1) - Trigger Ryuji's unlock event
+
+4.) demo.c is a file demonstrating the function calls. You may use that as reference
+to view the events happening
