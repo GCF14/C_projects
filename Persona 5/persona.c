@@ -3,26 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-/***************************************************************
-I am thou, and thou art I.
-Thou has acquired a new vow.
-It shall become the wings of rebellion
-that breaketh thy chains of captivity.
-With the birth of the CCPROG1 Persona,
-I have obtained the winds of blessing
-that shall lead to freedom and new power.
-I pledge that this power will result in my own work, based on my
-personal efforts in studying and applying the concepts learned.
-
-I have constructed the functions and their respective algorithms and
-corresponding code by myself, formed from my own bonds.
-The program was run, tested, and debugged by my own efforts.
-I further certify that I have not copied in part or whole or otherwise
-plagiarized the work of other students, persons, and/or personas.
-The bond with this CCPROG1 persona is my own.
-
-<Gerard Christian A. Felipe>, DLSU ID# <12318655>
-****************************************************************/
 
 void print_logo(void)
 {
